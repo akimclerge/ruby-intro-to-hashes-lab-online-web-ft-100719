@@ -39,7 +39,7 @@ def monopoly_with_third_tier
 	      :b_and_orailroad=>{},
 	      :shortline=>{}
 	    }
-	  }
+	  },
 	:peices=>4,
 	    :rent_in_dollars=>{
 	        :one_peice_owned=>25,
