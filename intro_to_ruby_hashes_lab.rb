@@ -1,11 +1,11 @@
 def new_hash
-  thehash = hash
+  thehash = {}
 
 end
 
 def actor
   actor = {
-    name: "Bradd Pitt"
+    name: "Dwayne The Rock Johnson"
   }
 
 end
@@ -20,7 +20,7 @@ end
 def monopoly_with_second_tier
 		monopoly = {
 	  :railroads=>{ 
-	    :peices=>4,
+	    :pieces=>4,
 	    :rent_in_dollars=>{},
 	    :names=>{},
 	  }
