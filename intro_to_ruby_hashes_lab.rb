@@ -33,8 +33,8 @@ def monopoly_with_third_tier
 		monopoly = {
 	:pieces=>4,
 	    :rent_in_dollars=>{
-	        :one_peices_owned=>25,
-          :two_pices_owned=>50,
+	        :one_pieces_owned=>25,
+          :two_pieces_owned=>50,
           :three_peices_owned=>100,
           :four_peices_owned=>200
 	    },
