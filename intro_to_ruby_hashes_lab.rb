@@ -31,7 +31,14 @@ end
 def monopoly_with_third_tier
   monopoly_with_second_tier
 		monopoly = {
-	  :railroads=> {
+	:pieces=>4,
+	    :rent_in_dollars=>{
+	        :one_peices_owned=>25,
+          :two_pices_owned=>50,
+          :three_peices_owned=>100,
+          :four_peices_owned=>200
+	    },
+	    :railroads=> {
 	    
 	    :names=>{
 	      :reading_railroad=>{},
@@ -39,14 +46,7 @@ def monopoly_with_third_tier
 	      :b_and_orailroad=>{},
 	      :shortline=>{}
 	    }
-	  },
-	:peices=>4,
-	    :rent_in_dollars=>{
-	        :one_peice_owned=>25,
-          :two_peices_owned=>50,
-          :three_peices_owned=>100,
-          :four_peices_owned=>200
-	    }
+	  }
 	    }
 
 
